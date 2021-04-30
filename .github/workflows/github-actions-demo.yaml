@@ -15,4 +15,4 @@ jobs:
         pip install pytest hypothesis
     - name: Test with pytest
       run: |
-        pytest *.py
+        pytest --verbose *.py
