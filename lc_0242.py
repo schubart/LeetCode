@@ -1,7 +1,8 @@
 from collections import Counter
 
 
-class Solution():
+# noinspection PyMethodMayBeStatic,PyPep8Naming
+class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
 
         # Certainly not an anagram if lengths differ.
