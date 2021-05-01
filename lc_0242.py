@@ -1,6 +1,7 @@
 from collections import Counter
 
 
+# noinspection PyMethodMayBeStatic,PyPep8Naming
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
 
