@@ -17,4 +17,4 @@ def test_against_known_implementation():
     s = Solution()
 
     for x in range(1, 4000):
-        s.romanToInt(roman.toRoman(x)) == x
+        assert s.romanToInt(roman.toRoman(x)) == x
