@@ -9,7 +9,6 @@ class Node:
 
 # noinspection PyPep8Naming
 class Trie:
-
     def __init__(self):
         self.root = Node()
 
